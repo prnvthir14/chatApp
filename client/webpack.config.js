@@ -1,6 +1,7 @@
+// 34:32 - does anyone know why the public path needs to be changed from 8080 - 8081(and devServer too?) - chatApp client is on 8080 || server on 4000 && EH-Client 8001(proxy8000) || EH-Server 8000
+
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 const ModuleFederationPlugin = require("webpack/lib/container/ModuleFederationPlugin");
-
 const deps = require("./package.json").dependencies;
 module.exports = {
   output: {
